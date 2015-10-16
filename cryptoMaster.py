@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
-from Tkinter import *
+from tkinter import *
 import math
 import random
 import ast
@@ -187,7 +187,7 @@ def callbackd():
     
 def callbackk():
     key = keyGen(int(e.get()))
-    print key
+    print(key)
     pubN.config(state=NORMAL)
     pubN.delete(1.0, END)
     pubN.insert(END, str(key[0]))
